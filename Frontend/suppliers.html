@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>  
 <html lang="es">  
 <head>  
@@ -28,15 +29,9 @@
         
         <h2>Agregar Proveedor</h2>  
         <form id="addSupplierForm">  
-            <label for="supplierName">Nombre del Proveedor:</label>  
-            <input type="text" id="supplierName" name="supplierName" required>  
-            
-            <label for="supplierContact">Contacto:</label>  
-            <input type="text" id="supplierContact" name="supplierContact" required>  
-            
-            <label for="supplierEmail">Email:</label>  
-            <input type="email" id="supplierEmail" name="supplierEmail" required>  
-            
+            <label for="companyName">Nombre del Proveedor:</label>  
+            <input type="text" id="companyName" name="companyName" required>  
+
             <button type="submit">Agregar</button>  
         </form>  
 
@@ -53,8 +48,6 @@
                 <tr>  
                     <th>ID</th>  
                     <th>Nombre del Proveedor</th>  
-                    <th>Contacto</th>  
-                    <th>Email</th>  
                 </tr>  
             </thead>  
             <tbody>  
@@ -63,7 +56,7 @@
         </table>  
     </main>  
     
-    <script src="suppliers.js"></script>
-    <script src="logout.js"></script>  
+    <script src="./javascript/suppliers.js"></script>
+    <script src="./javascript/logout.js"></script>  
 </body>  
 </html>
